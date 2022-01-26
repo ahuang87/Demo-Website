@@ -1,37 +1,23 @@
-## Welcome to GitHub Pages
+## DropLock Project Summary  
 
-You can use the [editor on GitHub](https://github.com/ahuang87/Demo-Website/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+The implementation of an effective drop detection safety in power tools is potentially a safety redundancy that may save many a trip to the emergency room.
+However, the difficulty of such a device is that an effective impulse detection algorithm in a noisy environment is often non-linear, requiring a convolutional process at every signal received. However, by putting a weighting the most recent data points over the older ones, an algorithm may be able to efficiently determine whether a device had a small jump from kick back during the use of the tool or if the user has lost control of the tool while still being able to shut off for large enough kick backs. 
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+By using a microcontroller with an accelerometer placed somewhere on the device, the device aims to efficiently detect danger while maintaining minimal power draw from the tool for a price of $9.16.
 
-### Markdown
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+### Project Description
 
-```markdown
-Syntax highlighted code block
+We will be designing a prototype of a module for a power tool that’ll be able to detect free fall. 
+Eventually, when free fall is detected, the power tool will shut off minimizing unwanted damage.
+Our prototype will be able to detect free fall within 0.5 seconds of the initial drop, causing an LED on its enclosure to turn on.
+It’ll also be able to withstand repeated drops of 3 to 6 feet and filter out noisy signals to minimize false positives all while consuming less than 3.3mW of power. 
 
-# Header 1
-## Header 2
-### Header 3
 
-- Bulleted
-- List
+### Simulation Data/Results 
 
-1. Numbered
-2. List
+Insert Simmulation Results Here:
 
-**Bold** and _Italic_ and `Code` text
+### Test Video
 
-[Link](url) and ![Image](src)
-```
-
-For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/ahuang87/Demo-Website/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+Click Here to watch a [demo](https://support.github.com/contact) 
