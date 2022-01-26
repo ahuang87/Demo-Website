@@ -1,4 +1,6 @@
-## DropLock Project Summary  
+## DropLock 
+
+### Project Summary
 
 The implementation of an effective drop detection safety in power tools is potentially a safety redundancy that may save many a trip to the emergency room.
 However, the difficulty of such a device is that an effective impulse detection algorithm in a noisy environment is often non-linear, requiring a convolutional process at every signal received. However, by putting a weighting the most recent data points over the older ones, an algorithm may be able to efficiently determine whether a device had a small jump from kick back during the use of the tool or if the user has lost control of the tool while still being able to shut off for large enough kick backs. 
