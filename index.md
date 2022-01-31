@@ -1,5 +1,7 @@
 ## DropLock 
 
+![Drop Lock Logo](/DropLock-Website/assets/MicrosoftTeams-image(1).png)
+
 ### Project Summary
 
 The implementation of an effective drop detection safety in power tools is potentially a safety redundancy that may save many a trip to the emergency room.
