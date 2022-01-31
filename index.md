@@ -1,6 +1,6 @@
-# DropLock 
+# DropLock    ![](logo.png)
 
-![](logo.png)
+
 
 
 ### Project Summary
