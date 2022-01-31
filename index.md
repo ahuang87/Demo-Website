@@ -1,6 +1,6 @@
 ## DropLock 
 
-![Drop Lock Logo](/DropLock-Website/assets/MicrosoftTeams-image(1).png)
+![Drop Lock Logo](/DropLock-Website/assets/MicrosoftTeams-image (1).png)
 
 ### Project Summary
 
